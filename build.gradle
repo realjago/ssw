@@ -5,8 +5,9 @@ version = '1.0-SNAPSHOT'
 
 description = """ssw"""
 
-sourceCompatibility = 1.8
-targetCompatibility = 1.8
+repositories {
+    mavenCentral()
+}
 
 jar {
     manifest {
@@ -17,10 +18,7 @@ jar {
     }
 }
 
-repositories {
-        
-     maven { url "https://repo.maven.apache.org/maven2" }
-}
+
 
 dependencies {
     compile group: 'org.mnode.ical4j', name: 'ical4j', version:'2.0.0'

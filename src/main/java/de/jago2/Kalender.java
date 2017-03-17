@@ -42,8 +42,8 @@ public class Kalender {
 		java.util.Calendar calendar2 = new GregorianCalendar();
 		
 		// ET setzen
-		calendar2.set(java.util.Calendar.MONTH, java.util.Calendar.JULY);
-		calendar2.set(java.util.Calendar.DAY_OF_MONTH, 28);
+		calendar2.set(java.util.Calendar.MONTH, java.util.Calendar.SEPTEMBER);
+		calendar2.set(java.util.Calendar.DAY_OF_MONTH, 18);
 		
 		addEventToCalendar(calendar, new Date(calendar2.getTime()), "40+0");
 		for (int i = 0; i < 40 * 7; i++) {
