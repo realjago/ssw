@@ -43,6 +43,7 @@
                     </archive>
                 </configuration>
             </plugin>
+
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
                 <executions>
@@ -56,6 +57,7 @@
                 <configuration>
                     <archive>
                         <manifest>
+                            <mainClass>de.jago2.Kalender</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
@@ -63,6 +65,7 @@
                     </descriptorRefs>
                 </configuration>
             </plugin>
+
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
